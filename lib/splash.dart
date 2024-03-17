@@ -34,7 +34,11 @@ class _splash_screenState extends State<splash_screen1> {
               children: [
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
-                  children: [Image.asset('assets/play_store_512.png')],
+                  children: [Image.asset('assets/recordcircle_up.png')],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [Image.asset('assets/recordcircle.png')],
                 ),
               ],
             ),
@@ -42,7 +46,10 @@ class _splash_screenState extends State<splash_screen1> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset('assets/bot4.png'),
+                  Image.asset(
+                    'assets/pnglogo.png',
+                    height: 130,
+                  ),
                   Text(
                     'ShaShanK',
                     style: GoogleFonts.brunoAceSc(
@@ -60,14 +67,14 @@ class _splash_screenState extends State<splash_screen1> {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text(
-                  'Made with',
+                  'Made for',
                   style: TextStyle(color: Colors.white, fontSize: 16),
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'Google Gemini',
+                      'Across The',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 17,
@@ -77,7 +84,7 @@ class _splash_screenState extends State<splash_screen1> {
                       width: 3,
                     ),
                     Text(
-                      'AI',
+                      'Globe',
                       style: TextStyle(
                           color: Color(0xffF8A401),
                           fontSize: 15,

@@ -1,14 +1,14 @@
-import 'package:atg1/cha.dart';
-import 'package:atg1/hub.dart';
-import 'package:atg1/page1.dart';
-import 'package:atg1/profile.dart';
+import 'package:atg1/Pages/cha.dart';
+import 'package:atg1/Pages/hub.dart';
+import 'package:atg1/Pages/page1.dart';
+import 'package:atg1/Pages/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:random_avatar/random_avatar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'learn.dart';
+import 'Pages/learn.dart';
 
 class bottom_nav extends StatefulWidget {
   const bottom_nav({super.key});
